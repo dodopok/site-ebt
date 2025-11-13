@@ -51,7 +51,7 @@ export type TPeriod = "launch" | "normal";
 export const PERIOD: TPeriod = "launch";
 
 export const getYearlyPlanLink = (period: TPeriod): string => {
-  const hotmartLink = "https://pay.hotmart.com/H96047264Q?offDiscount=EBT30";
+  const hotmartLink = "https://pay.hotmart.com/H96047264Q?off=y12y7b62&checkoutMode=10";
 
   const whatsappGroupLink = "https://chat.whatsapp.com/DloqhI82ufO2WILLcsuO40";
 
