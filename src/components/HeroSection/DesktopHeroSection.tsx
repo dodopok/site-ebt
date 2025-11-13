@@ -10,32 +10,24 @@ export interface IDesktopHeroSectionProps {}
 
 export const DesktopHeroSection = (props: IDesktopHeroSectionProps) => {
   return (
-    <Box sx={{ height: "auto", backgroundColor: "#000" }}>
+    <Box sx={{ position: "relative", width: "100%", backgroundColor: "#000" }}>
       <Box
         sx={{
-          height: "100%",
           width: "100%",
-          position: "absolute",
+          position: "relative",
+          maxHeight: '750px',
+          aspectRatio: "16/9", // Ajuste conforme a proporção real da imagem
         }}
       >
-        <Box
-          sx={{
-            height: "100%",
-            width: "100%",
-            position: "relative",
-          }}
-        >
-          <Image
-            quality={100}
-            unoptimized
-            priority
-            src={bgImage.src}
-            alt="Bibo"
-            fill
-            objectFit="fill"
-            objectPosition="80%"
-          />
-        </Box>
+        <Image
+          quality={100}
+          unoptimized
+          priority
+          src={bgImage.src}
+          alt="Bibo"
+          fill
+          style={{ objectFit: "contain", objectPosition: "right" }}
+        />
       </Box>
 
       <Box
@@ -45,7 +37,7 @@ export const DesktopHeroSection = (props: IDesktopHeroSectionProps) => {
           height: "100%",
         }}
       >
-        <Container
+        {/* <Container
           sx={{
             height: "100%",
             pt: 4,
@@ -62,7 +54,7 @@ export const DesktopHeroSection = (props: IDesktopHeroSectionProps) => {
               justifyContent="flex-end"
               sx={{ height: "62svh" }}
             >
-              {/* <Typography
+              <Typography
                 color="white"
                 variant="h1"
                 sx={{
@@ -101,9 +93,9 @@ export const DesktopHeroSection = (props: IDesktopHeroSectionProps) => {
                 >
                   <strong className="outlined">simples</strong>
                 </Animate>
-              </Typography> */}
+              </Typography>
 
-              {/* <Animate
+              <Animate
                 animate={{ opacity: 1 }}
                 initial={{ opacity: 0 }}
                 transition={{ duration: 1, delay: 2 }}
@@ -115,10 +107,10 @@ export const DesktopHeroSection = (props: IDesktopHeroSectionProps) => {
                 >
                   ESTUDE CONOSCO
                 </ScrollButton>
-              </Animate> */}
+              </Animate>
             </Stack>
           </Stack>
-        </Container>
+        </Container> */}
       </Box>
     </Box>
   );
