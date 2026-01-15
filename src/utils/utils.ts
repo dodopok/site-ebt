@@ -51,7 +51,7 @@ export type TPeriod = "launch" | "normal";
 export const PERIOD: TPeriod = "launch";
 
 export const getYearlyPlanLink = (period: TPeriod): string => {
-  const hotmartLink = "https://pay.hotmart.com/H96047264Q?offDiscount=EBT30";
+  const hotmartLink = "https://pay.hotmart.com/H96047264Q?off=y12y7b62&checkoutMode=10";
 
   const whatsappGroupLink = "https://chat.whatsapp.com/DloqhI82ufO2WILLcsuO40";
 
@@ -100,4 +100,4 @@ export const getYearlyPlanButtonSubtitle = (period: TPeriod): string => {
 };
 
 export const hotmartMonthlyLink =
-  "https://pay.hotmart.com/B75481811D?off=c1yew7f5&checkoutMode=6&_hi=eyJjaWQiOiIxNzMyMjk4ODI4OTg2MzY2NDkwMDY0MDgwMDYyODAiLCJiaWQiOiIxNzMyMjk4ODI4OTg2MzY2NDkwMDY0MDgwMDYyODAiLCJzaWQiOiJiMmE2M2VlNjFmMjg0ZTA1OGZkYzM5NDEwNTg1ZTA2NSJ9.1744755598266";
+  "https://pay.hotmart.com/B75481811D?checkoutMode=10&bid=1765800609639";
