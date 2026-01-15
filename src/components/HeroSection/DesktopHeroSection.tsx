@@ -10,7 +10,7 @@ export interface IDesktopHeroSectionProps {}
 
 export const DesktopHeroSection = (props: IDesktopHeroSectionProps) => {
   return (
-    <Box sx={{ height: "auto", backgroundColor: "#000" }}>
+    <Box sx={{ height: "100svh", backgroundColor: "#000" }}>
       <Box
         sx={{
           height: "100%",
@@ -32,7 +32,7 @@ export const DesktopHeroSection = (props: IDesktopHeroSectionProps) => {
             src={bgImage.src}
             alt="Bibo"
             fill
-            objectFit="fill"
+            objectFit="cover"
             objectPosition="80%"
           />
         </Box>
@@ -62,7 +62,7 @@ export const DesktopHeroSection = (props: IDesktopHeroSectionProps) => {
               justifyContent="flex-end"
               sx={{ height: "62svh" }}
             >
-              {/* <Typography
+              <Typography
                 color="white"
                 variant="h1"
                 sx={{
@@ -101,9 +101,9 @@ export const DesktopHeroSection = (props: IDesktopHeroSectionProps) => {
                 >
                   <strong className="outlined">simples</strong>
                 </Animate>
-              </Typography> */}
+              </Typography>
 
-              {/* <Animate
+              <Animate
                 animate={{ opacity: 1 }}
                 initial={{ opacity: 0 }}
                 transition={{ duration: 1, delay: 2 }}
@@ -115,7 +115,7 @@ export const DesktopHeroSection = (props: IDesktopHeroSectionProps) => {
                 >
                   ESTUDE CONOSCO
                 </ScrollButton>
-              </Animate> */}
+              </Animate>
             </Stack>
           </Stack>
         </Container>
