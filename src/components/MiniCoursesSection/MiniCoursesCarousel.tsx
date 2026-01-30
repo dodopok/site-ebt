@@ -70,7 +70,7 @@ export const miniCourses = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla nibh sed metus lacinia dignissim.",
     image: teologiaSimples.src,
-    link: "https://site.escolabibotalk.com.br/teologia-simples",
+    link: "https://pay.hotmart.com/G104109694T?checkoutMode=10&bid=1769792113037",
   },
   {
     name: "Espírito Santo",
