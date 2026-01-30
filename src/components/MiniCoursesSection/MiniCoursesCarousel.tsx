@@ -70,14 +70,14 @@ export const miniCourses = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla nibh sed metus lacinia dignissim.",
     image: teologiaSimples.src,
-    link: "https://escolabibotalk.com.br/teologia-simples",
+    link: "https://site.escolabibotalk.com.br/teologia-simples",
   },
   {
     name: "Espírito Santo",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla nibh sed metus lacinia dignissim.",
     image: espiritoSanto.src,
-    link: "https://escolabibotalk.com.br/espiritosanto-v2/",
+    link: "https://site.escolabibotalk.com.br/espiritosanto-v2/",
   },
 
   {
@@ -85,6 +85,6 @@ export const miniCourses = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla nibh sed metus lacinia dignissim.",
     image: idolatria.src,
-    link: "https://escolabibotalk.com.br/idolatria/",
+    link: "https://site.escolabibotalk.com.br/idolatria/",
   },
 ];
