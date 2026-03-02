@@ -1,5 +1,5 @@
 import { Box, Container, Stack, Typography } from "@mui/material";
-import bgImage from "../../../public/banner2-1920x850-1.webp";
+import bgImage from "../../../public/EBT_4anos_1920x850px_SITE.webp";
 import { getLineShadowCss } from "@/utils/utils";
 import { EBTLogo } from "../EBTLogo/EBTLogo";
 import { Animate } from "../Animate";
@@ -10,12 +10,17 @@ export interface IDesktopHeroSectionProps {}
 
 export const DesktopHeroSection = (props: IDesktopHeroSectionProps) => {
   return (
-    <Box sx={{ height: "100svh", backgroundColor: "#000" }}>
+    <Box sx={{ height: "100svh", backgroundColor: "#000", position: "relative" }}>
       <Box
         sx={{
           height: "100%",
           width: "100%",
           position: "absolute",
+          top: 0,
+          left: 0,
+          maskImage: "linear-gradient(to bottom, black 55%, transparent 100%)",
+          WebkitMaskImage:
+            "linear-gradient(to bottom, black 55%, transparent 100%)",
         }}
       >
         <Box
@@ -32,8 +37,8 @@ export const DesktopHeroSection = (props: IDesktopHeroSectionProps) => {
             src={bgImage.src}
             alt="Bibo"
             fill
-            objectFit="cover"
-            objectPosition="80%"
+            objectFit="contain"
+            objectPosition="top center"
           />
         </Box>
       </Box>
@@ -66,6 +71,7 @@ export const DesktopHeroSection = (props: IDesktopHeroSectionProps) => {
                 color="white"
                 variant="h1"
                 sx={{
+                  textShadow: "0 2px 12px rgba(0,0,0,0.85)",
                   "& strong.outlined": {
                     fontSize: 128,
                     position: "relative",

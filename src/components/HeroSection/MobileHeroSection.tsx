@@ -1,5 +1,5 @@
 import { Box, Container, Stack, Typography } from "@mui/material";
-import bgImage from "../../../public/banner2-1920x850-1.webp";
+import bgImage from "../../../public/EBT_4anos_630x850px_SITE-MOBILE.webp";
 import { getLineShadowCss } from "@/utils/utils";
 import { EBTLogo } from "../EBTLogo/EBTLogo";
 import { Animate } from "../Animate";
@@ -34,6 +34,17 @@ export const MobileHeroSection = (props: IMobileHeroSectionProps) => {
             fill
             objectFit="cover"
             objectPosition="right"
+          />
+          <Box
+            sx={{
+              position: "absolute",
+              bottom: 0,
+              left: 0,
+              right: 0,
+              height: "50%",
+              background: "linear-gradient(to bottom, transparent, #000)",
+              zIndex: 1,
+            }}
           />
         </Box>
       </Box>
