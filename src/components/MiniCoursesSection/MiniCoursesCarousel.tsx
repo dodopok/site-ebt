@@ -77,7 +77,7 @@ export const miniCourses = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla nibh sed metus lacinia dignissim.",
     image: espiritoSanto.src,
-    link: "https://site.escolabibotalk.com.br/espiritosanto-v2/",
+    link: "https://site.escolabibotalk.com.br/espiritosanto/",
   },
 
   {
