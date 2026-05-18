@@ -71,7 +71,7 @@ const planoMensal: IPlan = {
   includedFeatures: [
     "Todos os cursos disponíveis",
     "Materiais complementares",
-    "Acesso Online e Offline",
+    "Acesso Online e Imediato",
     "Módulos novos a cada 3 meses",
     "Grupo no Whats para infos",
   ],
