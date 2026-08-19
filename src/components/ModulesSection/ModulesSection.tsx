@@ -5,7 +5,7 @@ import module3Image from "../../../public/modulos/3.webp";
 import module4Image from "../../../public/modulos/4.webp";
 import module5Image from "../../../public/modulos/Espiritualidade-Vertical.webp";
 import module6Image from "../../../public/modulos/Panorama-do-AT-Vertical.webp";
-import module7Image from "../../../public/modulos/WhatsApp-Image-2022-03-23-at-13.58.16-1.webp";
+import module7Image from "../../../public/modulos/teologia-simples.webp";
 import module8Image from "../../../public/modulos/WhatsApp-Image-2022-03-23-at-13.58.16-2.webp";
 import { ResponsiveComponent } from "../ResponsiveComponent";
 import { DesktopModulesSection } from "./DesktopModulesSection";

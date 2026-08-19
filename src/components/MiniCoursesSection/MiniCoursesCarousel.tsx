@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import { Carousel } from "../Carousel/Carousel";
 import Image from "next/image";
-import teologiaSimples from "../../../public/modulos/WhatsApp-Image-2022-03-23-at-13.58.16-1.webp";
+import teologiaSimples from "../../../public/modulos/teologia-simples.webp";
 import espiritoSanto from "../../../public/espirito-santo.jpg";
 import idolatria from "../../../public/modulos/idolos.png";
 
